@@ -1,7 +1,7 @@
 # Can-AI-Code-data
 
 This repository contains data to support the reproduction of the results presented in the paper:
-***"Can AI Code? A Head-to-Head Showdown Between Large Language Models and Student Programmers~in~C"***
+***"Can AI Code? A Head-to-Head Showdown Between Large Language Models and Student Programmers in C"***
 
 ## Repository structure
 
