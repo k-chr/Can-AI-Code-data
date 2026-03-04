@@ -1,17 +1,19 @@
 # Can-AI-Code-data
 
-This repository contains data to support the reproduction of the results presented in the paper:
+This repository contains data samples to support the reproduction of the results presented in the paper:
 ***"Can AI Code? A Head-to-Head Showdown Between Large Language Models and Student Programmers in C"***
 
 ## Repository structure
 
-```bash
+```plain-text
 ├── Can-AI-Code-data
-│   ├── task_{1_14} - main directory for each task selected from Dante and used in research.
-│   │   ├── task_description.txt - contains description in English
+│   ├── task_{1-14} - main directory for each task selected from Dante and used in research.
+│   │   ├── task_description.txt - contains the task's description in English
 │   |   ├── Llama   -|
 │   |   ├── Gemini   |
-|   |   |            |- subdirectories with *.url files that contain a link to the proper *.html report.
+|   |   |            |  Each subdirectory contains sample *.url files that point to the appropriate *.html
+|   |   |            |- reports (that include error messages, tests, etc., see: "Assessment Report Format"
+|   |   |            |  subsection in "Student C Programming Assessment System" section in the paper).
 │   |   ├── Claude   |
 │   |   ├── ChatGPT -|
 ```
