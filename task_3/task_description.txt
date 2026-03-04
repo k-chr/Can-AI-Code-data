@@ -1,0 +1,23 @@
+Write a program in C that takes an integer X from the user and then displays a message of the form:
+
+    'X is odd' in case the number will be odd;
+    'X is even' in case the number will be even; or
+    'Incorrect input' in case the user provides incorrect data.
+
+Instead of 'X', substitute the value of the entered number.
+
+    If the user enters incorrect data, the program should display 'Incorrect input' end with the error code '1'.
+
+Examples:
+
+Enter an integer: 4⏎
+4 is even⏎
+
+Specify integer: T⏎
+Incorrect input⏎
+
+Notes:
+
+* Do not use the ternary operator '?:' in the program.
+* Do not use the conditional 'if' statement in the program.
+* Only one 'switch' instruction is allowed to be used in the program.

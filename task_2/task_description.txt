@@ -1,0 +1,27 @@
+Write a program in C that calculates the gross cost of electricity consumed, according to the price list:
+
+    0.50 PLN net for the first 50 kWh,
+    0.75 PLN net for the next 100 kWh,
+    1.20 PLN net for the next 100 kWh,
+    1.50 PLN net for each kWh above 250 kWh.
+
+The net amount is the amount without VAT for 1 kWh. The gross amount is the net amount plus the value of VAT. The program should assume a VAT rate equal to 22% of the basic (net) amount.
+
+The program should take from the user the amount of energy consumed in kWh, and then calculate and display its gross cost.
+
+    If the user provides incorrect data, the program should display the message 'Incorrect input' and terminate the operation with the error code '1'.
+
+Examples:
+
+Enter the amount of kWh: 250⏎
+Gross cost: 268.399994
+
+Enter kWh quantity: -13⏎
+Incorrect input⏎
+
+Enter amount of kWh: n⏎
+Incorrect input⏎
+
+Notes:
+
+* The program must not use the 'switch' instruction.

@@ -1,0 +1,49 @@
+Write a function in C that checks whether an array, passed via a pointer, is diagonally dominant.
+
+The prototype of the function should look as follows:
+
+int dd_test(const int *ptr, int width, int height);
+
+Parameters:
+
+* 'ptr' - a pointer to an array of type 'int' of length 'width'*'height' elements. Successive cells of the array are arranged in rows, i.e. the last element of the row with index '0' is followed by the element with index '0' of the row with index '1'.
+* 'width', 'height' - the number of columns and rows of the matrix.
+
+Returned value:
+
+* '0' - if the matrix is not diagonally dominant,
+* '1' - if the matrix is diagonally dominant,
+* '-1' - if it will not be possible to check whether the matrix is diagonally dominant.
+
+Write a program that will take a 5x5 matrix (as a 2D array) from the user and, using the function you wrote earlier, check if the matrix is diagonally dominant.
+
+The program should output 'YES' in the console if the matrix is diagonally dominant or 'NO' otherwise.
+
+If the input is incorrect, the program should display 'Incorrect input' and terminate with error code '1'.
+
+Example interaction with the program -- success:
+
+Enter the numbers: ⏎
+-227 21 48 45 39 ⏎
+  71 -346 72 16 61 ⏎
+  42 72 -434 90 74 ⏎
+   8 14 97 -155 31 ⏎
+  52 14 9 60 -136 ⏎
+YES
+
+Enter the numbers:
+0 0 0 0 0 ⏎
+0 0 0 0 0 ⏎
+0 0 0 0 0 ⏎
+0 0 0 0 0 ⏎
+0 0 0 0 0 ⏎
+NO
+
+Example of program interaction -- input data errors:
+
+Enter numbers: yi⏎
+Incorrect input
+
+Tip:
+
+In a diagonally dominant matrix, for each row the modulus of an element on the diagonal is greater than the sum of the moduli of the other elements of the matrix in that row.

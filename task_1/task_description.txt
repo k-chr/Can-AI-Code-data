@@ -1,0 +1,12 @@
+Write a program in C that takes the phone number (in 'ddd-dd-dd' format) and the area code (in 'dd' format) from the user. The program is then to display it in the form '(dd) ddd-dd-dd'. The displayed result is to represent only the formatted phone number.
+
+Examples:
+
+Enter the phone number: 431-04-21⏎
+Enter the area code: 82⏎
+(82) 431-04-21
+
+Notes:
+
+* Use three calls to the 'printf' function and two calls to the 'scanf' function in the program.
+* The keyword 'char' must not be used in the program.

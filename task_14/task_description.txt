@@ -1,0 +1,38 @@
+Write a function in C that removes all non-letter characters from the text, while converting each first letter of the word to uppercase, changing the others to lowercase.
+
+The prototype of the function should look as follows:
+
+int message_compression(char* txt);
+
+Return value:
+
+* '-1' if incorrect data is provided or.
+* '>= 0' the number of deleted characters in case of success.
+
+Write a program that will take text (no more than 1000 characters) from the user, and then using the function prepared earlier will process it. The text compressed in this way should be displayed on the screen.
+
+In case there is nothing to display, the program should display the message 'NothingToShow'.
+
+Example of interaction with the program -- success:
+
+Enter the text: Ula ma kota, a kot ma Ule!
+UlaMaKotaAKotMaUle
+
+Enter text: W⏎
+W
+
+Enter text: k⏎
+K
+
+Example of program interaction -- no data:
+
+Enter text:  1337 , !! !@ 
+NothingToShow
+
+Notes:
+
+* Do not use the 'ctype', 'stdlib' and 'string' libraries.
+* Do not use functions from the' scanf' family, except for the 'scanf' function itself.
+* Do not use digits in the program, except for the digits 0 and 1.
+* Text should be displayed without unnecessary whitespace characters before and after the actual text (a newline character is also a whitespace character).
+

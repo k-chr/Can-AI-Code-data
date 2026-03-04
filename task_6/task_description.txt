@@ -1,0 +1,12 @@
+Write a program in C that will retrieve from the user a text string consisting only of letters and whitespace characters and a code offset. The program is to encrypt the retrieved text using a Caesar cipher and output it to the console. The length of the input string will not exceed 1000 characters.
+
+Example input:
+
+Provide text: 
+Example text to be encoded 
+Provide code character: 
+1
+
+Example output:
+
+Qsazlmbepxz ufltu ep ablpepxbojb

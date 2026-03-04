@@ -1,0 +1,22 @@
+Write a function that will recursively count the sum of digits in a number. The prototype of the function should look as follows:
+
+int sum_of_digits(long long number);
+
+Write a program that will take a number from the user and count the sum of the digits in it.
+
+If the input is incorrect, display the message 'Incorrect input' and immediately terminate with the error code '1'.
+
+Example input:
+
+Enter a number: 809⏎
+
+Example output:
+
+Result: 17⏎
+
+Notes:
+
+    Global variables must not be used in the program.
+    The keyword 'static' must not be used in the program.
+    Loops are not allowed to be used in the program.
+    The program must not use the 'math' library.

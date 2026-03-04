@@ -1,0 +1,39 @@
+Write a program in C that checks whether an integer given from the keyboard is prime. The program should allow the user to enter a number and then display the word 'YES' when the number is prime or 'NO' otherwise.
+
+    If the user enters incorrect data into the program, the program should display the message 'Incorrect input' and terminate with the error code '1'.
+
+Definition:
+
+    A prime number is one that is completely divisible only by 1 and by itself. Hint: The remainder of dividing a by b is determined by the expression (a % b).
+
+Example 1:
+
+6 % 1 = 0    
+6 % 2 = 0    
+6 % 3 = 0    
+6 % 4 = 2    
+6 % 5 = 1    
+6 % 6 = 0    
+                 	
+Example 2:
+
+7 % 1 = 0
+7 % 2 = 1
+7 % 3 = 1
+7 % 4 = 3
+7 % 5 = 2
+7 % 6 = 1
+7 % 7 = 0
+
+Conclusion:
+
+    6 is divisible by 2 and 3. Therefore, it is not a prime number.
+    7 is divisible only by 1 and 7. Therefore, 7 is a prime number.
+
+Examples:
+
+Give the whole number: -5⏎
+NO
+
+Give an integer: 2⏎
+YES

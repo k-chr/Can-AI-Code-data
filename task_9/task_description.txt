@@ -1,0 +1,14 @@
+Write a function in C that takes a number and then writes it to an array 'output' of size 'size', inserting commas every third digit, counting from the end. The function should return a value of 0 in case of success or 1 if the operation fails. The function prototype should look as follows:
+
+int add_comas(long long a, char output[], int size);
+
+Write a program that will take a number from the user and then display it with commas inserted, if the user provides incorrect data the program should display the message 'Incorrect input' and terminate the operation with the error code '1'.
+
+Example input:
+
+Enter a number:
+-7929
+
+Example output:
+
+-7,929

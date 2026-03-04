@@ -1,0 +1,32 @@
+Write in C a function 'complex_sort' to sort an array of complex numbers in ascending order, taking the value of the real part as the criterion (in case two or more numbers will have the same real part, the numbers should be sorted in descending order, according to the value of the imaginary part). A single complex number will be stored in the array as two adjacent values (first the real part and then the imaginary part). The function should return an error code '1' in case of wrong data or '0' in case of success. The prototype of the function should look as follows:
+
+int complex_sort(int tab[], int size);
+
+Additionally, prepare two functions that allow you to load (read_vector) and display (display_vector) individual vector elements on the console. The following prototypes are expected to have these functions:
+
+int read_vector(int vec[], int size, int stop_value);
+void display_vector(const int vec[], int size);
+The function loading a vector from the user, in addition to the vec vector and its maximum size size, must accept the value of the stop_value element, after which the function ends and returns the appropriate value. The value returned by the read_vector function is to be the number of loaded elements.
+
+If incorrect data is passed to the function (e.g. a vector with capacity 0), the function should return the value -1
+If the user enters non-numeric values, the function should return -2.
+
+Write a program that will take an array of numbers from the user (no more than 150 elements, the number '0' indicates the end of data entry), and then sort it using the function prepared earlier.
+
+* If incorrect data is entered, the program is to display the message 'Incorrect input' and immediately terminate the operation with the error code '1'.
+* In case of inputting data inconsistent with the content of the task, the program is to display the message 'Incorrect input data' and terminate the operation with the error code '2'.
+* If too little data is given, the message 'Not enough data available' and immediately terminate the operation with error code '3'.
+
+Example input:
+
+Enter vector: -61 20 -76 -61 -2 -41 -77 79 71 -81 -35 31 65 74 0
+
+Example output:
+
+-77 79 -76 -61 -61 20 -35 31 -2 -41 65 74 71 -81
+
+Notes:
+
+* The declarations of the functions 'read_vector' and 'display_vector' are to be placed in the file 'vector_utils.h', and their definitions in the file 'vector_utils.c'.
+* Additional arrays must not be declared in functions.
+* Functions should not display anything.

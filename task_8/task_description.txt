@@ -1,0 +1,32 @@
+Write a function, with the following prototype:
+
+int clamp(int x, int lo, int hi);
+
+The function is to implement the following mathematical function:
+
+f(x)=⎧⎪⎨⎪⎩x for x∈⟨lo;hi⟩lo for x≤lohi for x≥hi
+
+Write a program in C that takes three numbers from the user. The first value is to be the number we want to limit to the given interval. The second and third values are to be the left and right limits of the interval.
+
+The program is then to call the prepared function with the appropriate parameters and output the value returned by the function to the console. The program has to determine the upper and lower limits of the interval itself if the user makes a mistake.
+
+If the user enters the wrong data, the program should display the message 'Incorrect input' and immediately terminate with the error code '1'.
+
+Example input:
+
+Enter number:432⏎
+Specify the first limit: -67⏎
+Specify the second boundary: 299⏎
+299⏎
+
+Specify number:C⏎
+incorrect input⏎
+
+Specify number:14⏎
+Specify first limit:inQa⏎
+incorrect input⏎
+
+Specify number:6⏎
+Specify first boundary:12⏎
+Specify second boundary:qK⏎
+incorrect input⏎
